@@ -1,0 +1,18 @@
+Create table recommendation(id varchar(36) primary key,
+title tinytext not null, message tinytext not null,
+company tinytext not null, onshowcase bool default False);
+
+Create table projects(id varchar(36) primary key,
+title tinytext not null, imageurl tinytext not null,
+tool tinytext not null);
+
+Create table contact(name tinytext not null, email tinytext not null,
+review tinytext not null);
+
+Create table skills(id varchar(36) primary key,
+name tinytext not null, imageurl tinytext not null,
+starstotal tinytext not null, starsactive tinytext not null);
+
+INSERT INTO recommendation VALUES(1,"Perfect in his Job","He does his job with perfection. we wish him the best.","The A",True),
+(2,"Title 2","Message 2","Company 2",True),(3,"Title 3","Message 3","Company 3",True),
+(4,"Title 4","Message 4","Company 4",True);

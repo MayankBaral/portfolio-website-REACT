@@ -1,0 +1,96 @@
+.navbar-brand{
+    margin-left: 5;
+    font-size: 25px; 
+    font-family: 'Times New Roman', Times, serif;
+}
+.navbar-toggler{
+    color: aqua;
+}
+.container-fluid1{
+    background-color: #ebebeb;
+}
+.info{
+    font-size: 60px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div1{
+    font-size: 40px; 
+    font-weight: 500;
+}
+h1{
+    font-weight: lighter; 
+    font-size: 45px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.work{
+    font-weight: 400; font-size: 22px;
+}
+div3{
+    background-color: black;
+}
+div4{
+    background-color: black;
+}
+.seemore{
+    text-align: right;
+}
+input{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+    border-width: 1px;
+    border-radius: 5px;
+}
+textarea{
+    padding: 5px;
+    border-width: 1px ;
+    border-radius: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    width: 100%;
+}
+label{
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 5px;
+}
+button{
+    margin-top: 15px;
+    padding: 5px;
+    background-color: rgb(4, 100, 100);
+    border-radius: 6px;
+    border-width: 1px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.form-group{
+    padding: 5px;
+}
+footer{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+}
+  
+::-webkit-scrollbar-track {
+    background: none;        /* color of the tracking area */
+}
+  
+::-webkit-scrollbar-thumb {
+    background-color: lightgray;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid rgb(255, 255, 255);  /* creates padding around scroll thumb */
+}
